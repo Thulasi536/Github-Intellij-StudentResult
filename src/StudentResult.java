@@ -7,7 +7,7 @@ public class StudentResult {
         System.out.print("Enter Age:");
         int age = sc.nextInt();
         System.out.print("Enter Class:");
-        String studentClass=sc.next();
+        String StudentClass=sc.next();
         System.out.print("Enter Gender:");
         String gender=sc.next();
         System.out.print("Enter marks for subject 1: ");
@@ -23,7 +23,7 @@ public class StudentResult {
         System.out.println("\n--- Student Details ---");
         System.out.println("Name: " + name);
         System.out.println("Age:" + age);
-        System.out.println("Class:" + studentClass);
+        System.out.println("Class:" + StudentClass);
         System.out.println("Gender:" + gender);
         System.out.println("Total Marks: " + total);
         System.out.println("Average: " + average);
